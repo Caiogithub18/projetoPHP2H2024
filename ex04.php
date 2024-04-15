@@ -1,25 +1,30 @@
 <?php 
 
-$num1 = 10;
-$num2 = 5;
-$num3 = 2;
+$a = 10;
+$b = 5;
+$c = 2;
 $cont = 0;
-$k = 0;
+$t = 0;
 
-if($num1 < $num2){
-echo($k < $num1);
+ 		while($cont < 2){
 
-}elseif($num1 < $num2){
-echo($num2 < $k);
 
-}elseif($num2 < $num3){
-	echo($k < $num2);
-	echo($num2 < $num3);
-	echo($num3 < $k);
-}   
+          if($a > $b){
+          echo ($t = $a);
+          echo ($a = $b);
+          
 
-$cont++;
-	
+      }else if( $b > $c){
+
+          
+          echo ($b = $c);
+          
+      }
+
+          $cont++;
+      
+
+	}
 
 
  ?>
